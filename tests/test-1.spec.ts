@@ -5,4 +5,5 @@ test('test', async ({ page }) => {
   await page.goto('https://m.skybet.com/match-5');
   await page.goto('https://rte.ie');
   await page.goto('https://m.skybet.com/match-5');
+  await page.getByRole('button', { name: 'Allow all cookies' }).click();
 });
