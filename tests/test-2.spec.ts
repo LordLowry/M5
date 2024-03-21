@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
-  await page.goto('https://skynews.com');
+  await page.goto('https://skybet.com');
 });
 
 
