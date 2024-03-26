@@ -2,6 +2,6 @@ import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
   test.setTimeout(10000);
-  await page.goto('https://m.skybet.com/match-5');
-  await page.getByRole('button', { name: 'Allow all cookies' }).dispatchEvent('click');
+  await page.goto('https://m.skybet.com');
+  await page.getByRole('link', { name: 'Log in' }).click();
    });
